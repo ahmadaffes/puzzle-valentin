@@ -88,8 +88,8 @@ public class MonSiteControlleur {
         // --- AFFICHAGE DU MESSAGE SI VICTOIRE ---
         if (victoire) {
             html.append("<div class='message-victoire'>");
-            html.append("<h2>✨ Joyeuse Saint Valentin ! ✨</h2>");
-            html.append("<p>Tu as rassemblé les morceaux de mon cœur. Je t'aime ! ❤️</p>");
+            html.append("<h2>✨ Happy Valentine's Day! ✨</h2>");
+            html.append("<p>You've put the pieces of my heart back together. I love you! ❤️</p>");
             html.append("</div>");
         } else {
             html.append("<p style='color: #d32f2f;'>Click on two squares to swap them and reconstruct the image...</p>");
